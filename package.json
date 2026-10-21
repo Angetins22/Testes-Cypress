@@ -1,0 +1,24 @@
+{
+  "name": "testes-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angetins22/Testes-Cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Angetins22/Testes-Cypress/issues"
+  },
+  "homepage": "https://github.com/Angetins22/Testes-Cypress#readme",
+  "devDependencies": {
+    "cypress": "^16.2.0"
+  }
+}
