@@ -39,12 +39,25 @@ describe('UC-07: Remover evento dos favoritos', () => {
 
   it('deve permitir que o visitante remova o evento dos favoritos', () => {
 
-      cy.get('[aria-label="Favoritar evento"]')
-      .first()
-      .click();
+    cy.get('[aria-label="Favoritar evento"]')
+    .first()
+    .click();
 
     removerFavoritos();
 
+  });
+
+  it('deve permitir que o visitante remova o evento dos favoritos com o filtro ativo', () => {
+
+    cy.get('[aria-label="Favoritar evento"]')
+    .first()
+    .click();
+
+    cy.get('[aria-label="Favoritar evento"]')
+    .first()
+    .click();
+
+    removerFavoritos();
   });
 
 });
